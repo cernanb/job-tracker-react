@@ -19,7 +19,7 @@ let jobCardsList = [
     tasks: [
       {
         id: 1,
-        name: "Schedule Phone Screen",
+        name: "Schedule Phone Screen with the Recruiter",
         done: false
       }
     ],

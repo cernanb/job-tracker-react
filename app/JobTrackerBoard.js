@@ -12,6 +12,10 @@ class JobTrackerBoard extends Component {
         <JobList id='phone-screen' title="Phone Screen" jobs={
           this.props.jobs.filter((job) => job.status === 'phone-screen')
         }/>
+
+        <JobList id='tech-interview' title="Technical Interview" jobs={
+          this.props.jobs.filter((job) => job.status === 'tech-interview')
+        }/>
       </div>
     );
   }
